@@ -30,11 +30,11 @@ const ThemeButton = (props) => {
                 width: "100%",
                 justifyContent: "space-evenly"
             }}>
-                {/* <Button style={{flex: 3}} title={data} color="#2d2d2d" onPress={handle} /> */}
+                <Button style={{flex: 3}} title={data} color="#2d2d2d" onPress={handle} />
                 <Pressable style={styles.buttonView} onPress={handle}>
                     <Text style={styles.buttonText}>{data}</Text>
                 </Pressable>
-                {/* <Button style={{flex: 3}} title={props.text} color={props.color} onPress={props.handle} /> */}
+                <Button style={{flex: 3}} title={props.text} color={props.color} onPress={props.handle} />
             </View>
         </>
     );
